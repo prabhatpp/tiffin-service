@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif; /* Modern and elegant font */
+  background-color: #fef6e4; /* Soft cream background for warmth */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #6a0572; /* Vibrant purple for navbar */
+  color: #ffffff; /* White text for contrast */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar a {
+  color: #fef6e4; /* Matching cream for links */
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  background-color: #960f8f; /* Slightly darker purple for hover */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
